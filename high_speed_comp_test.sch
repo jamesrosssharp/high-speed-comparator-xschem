@@ -6,15 +6,15 @@ V {}
 S {}
 E {}
 B 2 60 -590 860 -190 {flags=graph
-y1=-0.4
-y2=1.6
+y1=-0.95326635
+y2=2.0542563
 ypos1=0
 ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=4.5133539e-08
-x2=3.443082e-07
+x1=-7.9780019e-09
+x2=2.9610672e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -22,8 +22,10 @@ ylabmag=1.0
 node="inp
 inn
 vgn_minus
-vgn_plus"
-color="4 7 12 10"
+vgn_plus
+vlat_plus
+vlat_minus"
+color="4 7 12 10 15 21"
 dataset=-1
 unitx=1
 logx=0
@@ -31,10 +33,10 @@ logy=0
 rawfile=$netlist_dir/comp_test_tran.raw
 autoload=1
 sim_type=tran}
-N -220 -50 -130 -50 {lab=VDD}
+N -220 -50 -140 -50 {lab=VDD}
 N -230 10 -140 10 {lab=GND}
-N -210 -10 -130 -10 {lab=INP}
-N -210 -30 -130 -30 {lab=INN}
+N -210 -10 -140 -10 {lab=INP}
+N -210 -30 -140 -30 {lab=INN}
 N -520 -180 -520 -150 {lab=VDD}
 N -520 -90 -520 -20 {lab=GND}
 N -570 30 -570 60 {
@@ -43,6 +45,15 @@ N -390 30 -390 60 {
 lab=INN}
 N 160 -40 260 -40 {lab=VGN_PLUS}
 N 160 0 270 0 {lab=VGN_MINUS}
+N -230 110 -130 110 {lab=VGN_PLUS}
+N -230 130 -130 130 {lab=VGN_MINUS}
+N -230 90 -130 90 {lab=VDD}
+N -230 170 -130 170 {lab=GND}
+N -230 150 -130 150 {lab=VB}
+N 170 110 290 110 {lab=VLAT_PLUS}
+N 170 140 290 140 {lab=VLAT_MINUS}
+N -380 -180 -380 -150 {lab=VB}
+N -380 -90 -380 -20 {lab=GND}
 C {lab_wire.sym} -180 -50 0 0 {name=p1 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -190 10 0 0 {name=p2 sig_type=std_logic lab=GND}
 C {lab_wire.sym} -180 -10 0 0 {name=p4 sig_type=std_logic lab=INP}
@@ -65,10 +76,10 @@ C {devices/vsource.sym} -390 90 0 0 {name=VMINUS value="pwl
 +210.1n 'VDL'"
 spice_ignore=false}
 C {devices/lab_pin.sym} -390 30 0 0 {name=p37 lab=INN}
-C {code_shown.sym} -1040 -420 0 0 {name=s1 only_toplevel=false format="tcleval( @value )" value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+C {code_shown.sym} -930 -440 0 0 {name=s1 only_toplevel=false format="tcleval( @value )" value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 
 .param VDL = 0.9
-.param DELTA = 0.002
+.param DELTA = 0.05
 
 .option savecurrents
 .control
@@ -86,10 +97,21 @@ write comp_test_op.raw
 }
 C {lab_wire.sym} -570 120 0 0 {name=p10 sig_type=std_logic lab=GND}
 C {lab_wire.sym} -390 120 0 0 {name=p11 sig_type=std_logic lab=GND}
-C {launcher.sym} -230 -400 0 0 {name=h5
+C {launcher.sym} -220 -400 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/comp_test_tran.raw tran"
 }
 C {preamp.sym} 10 -20 0 0 {name=x1}
 C {lab_wire.sym} 240 -40 0 0 {name=p3 sig_type=std_logic lab=VGN_PLUS}
 C {lab_wire.sym} 240 0 0 0 {name=p12 sig_type=std_logic lab=VGN_MINUS}
+C {latch.sym} 20 130 0 0 {name=x2}
+C {lab_wire.sym} -180 90 0 0 {name=p8 sig_type=std_logic lab=VDD}
+C {lab_wire.sym} -180 170 0 0 {name=p9 sig_type=std_logic lab=GND}
+C {vsource.sym} -380 -120 0 0 {name=V2 value=1.2 savecurrent=false}
+C {lab_wire.sym} -380 -180 0 0 {name=p13 sig_type=std_logic lab=VB}
+C {lab_wire.sym} -380 -20 0 0 {name=p14 sig_type=std_logic lab=GND}
+C {lab_wire.sym} -170 110 0 0 {name=p15 sig_type=std_logic lab=VGN_PLUS}
+C {lab_wire.sym} -170 130 0 0 {name=p16 sig_type=std_logic lab=VGN_MINUS}
+C {lab_wire.sym} -200 150 0 0 {name=p17 sig_type=std_logic lab=VB}
+C {lab_wire.sym} 280 110 0 0 {name=p18 sig_type=std_logic lab=VLAT_PLUS}
+C {lab_wire.sym} 270 140 0 0 {name=p19 sig_type=std_logic lab=VLAT_MINUS}
