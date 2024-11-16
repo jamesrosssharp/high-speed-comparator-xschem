@@ -13,8 +13,8 @@ ypos2=2
 divy=5
 subdivy=1
 unity=1
-x1=-2.116521e-08
-x2=2.795871e-07
+x1=-9.4261162e-08
+x2=8.0378052e-07
 divx=5
 subdivx=1
 xlabmag=1.0
@@ -28,7 +28,7 @@ dataset=-1
 unitx=1
 logx=0
 logy=0
-rawfile=$netlist_dir/comp_test_tran.raw
+
 autoload=1
 sim_type=tran}
 N -520 -180 -520 -150 {lab=VDD}
@@ -82,7 +82,7 @@ write comp_test_op.raw
 }
 C {lab_wire.sym} -570 120 0 0 {name=p10 sig_type=std_logic lab=GND}
 C {lab_wire.sym} -390 120 0 0 {name=p11 sig_type=std_logic lab=GND}
-C {launcher.sym} -230 -390 0 0 {name=h5
+C {launcher.sym} -150 -630 0 0 {name=h5
 descr="load waves" 
 tclcommand="xschem raw_read $netlist_dir/comp_test_tran.raw tran"
 }
@@ -144,3 +144,7 @@ C {lab_wire.sym} -350 300 0 0 {name=p3 sig_type=std_logic lab=INN}
 C {lab_wire.sym} -350 320 0 0 {name=p4 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -350 340 0 0 {name=p5 sig_type=std_logic lab=GND}
 C {lab_wire.sym} 70 260 0 0 {name=p8 sig_type=std_logic lab=COMP_OUT}
+C {launcher.sym} -150 -580 0 0 {name=h1
+descr="load waves from batch sim" 
+tclcommand="xschem raw_read /home/jrsharp/home_mnt/asic/high_speed_comparator/sim/design001/high_speed_comp.raw tran"
+}
