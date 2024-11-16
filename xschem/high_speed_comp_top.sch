@@ -37,10 +37,10 @@ C {lab_wire.sym} 400 -250 0 0 {name=p17 sig_type=std_logic lab=CLK}
 C {sky130_stdcells/dfxtp_2.sym} 510 -240 0 0 {name=x3 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {lab_wire.sym} -310 -500 0 0 {name=p10 sig_type=std_logic lab=CLK_PRIME}
 C {sky130_stdcells/clkinv_4.sym} -450 -500 0 0 {name=x4 VGND=GND VNB=GND VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/decap_3.sym} 450 -370 0 0 {name=x5 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/fill_1.sym} 450 -330 0 0 {name=x6 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/decap_3.sym} 450 -410 0 0 {name=x7 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {sky130_stdcells/fill_1.sym} 450 -450 0 0 {name=x8 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/decap_3.sym} 450 -370 0 0 {name=x5 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/fill_1.sym} 450 -330 0 0 {name=x6 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/decap_3.sym} 450 -410 0 0 {name=x7 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
+C {sky130_stdcells/fill_1.sym} 450 -450 0 0 {name=x8 VGND=VSS VNB=VSS VPB=VDD VPWR=VDD prefix=sky130_fd_sc_hd__ }
 C {ipin.sym} -620 -430 0 0 {name=p11 lab=VINP}
 C {ipin.sym} -620 -380 0 0 {name=p12 lab=VINN
 }
