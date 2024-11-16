@@ -1,5 +1,6 @@
 Test bench for high speed comparator
-.lib /home/jrsharp/home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.tech/combined/sky130.lib.spice tt
+
+.lib /home/jrsharp/home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.tech/combined/sky130.lib.spice ff
 .inc /home/jrsharp/home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 
 .inc high_speed_comp_top.spice
@@ -38,14 +39,14 @@ X1 CLK INP INN VDD COMP_OUT VSS high_speed_comp_top
   let run = 1
   save all
   op
-  write high_speed_comp.raw
+  write high_speed_comp_ff.raw
   reset
   set appendwrite
   dowhile run < = 100
     save vdd i(vvdd) temperat clk comp_out inn inp
     *save all
     tran 0.1n 600n uic
-    write high_speed_comp.raw
+    write high_speed_comp_ff.raw
     let run = run + 1
     reset
   end
