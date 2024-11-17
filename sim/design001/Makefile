@@ -18,7 +18,8 @@ $(BUILD_DIR)/%.raw: high_speed_comp_top.spice testbench.spice
 	@ngspice $(BUILD_DIR)/top_$(CORNER).spice
 
 extract_results: $(RAW_FILES)
-	python3 extract_results.py
+	@mkdir -p results
+	python3 extract_results.py | tee results/results.txt
 
 clean:
 	rm -rf $(BUILD_DIR)
