@@ -2,7 +2,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-import load_spice
+from load_spice import load_spice
 
 def load_corner(corner):
 
