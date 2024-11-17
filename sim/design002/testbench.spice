@@ -19,29 +19,28 @@ Test bench for 1-bit frontend
 
 E5 TEMPERAT VSS VOL=' temper '
 
-.param FREQGAUSS = agauss(10MEG, 1MEG, 1)
+.param FREQGAUSS = agauss(1MEG, 300k, 1)
+.param freq = 'FREQGAUSS'
 
+E6 FREQV VSS VOL='freq'
 
 VCLK CLK GND PULSE(0 1.8 0 1NS 1NS 10NS 20NS 0)
 VVSS VSS GND 0
 VVDD VDD GND 'VCC'
 
-VPLUS INP GND SIN('VDL' 0.01 'FREQGAUSS' 0 0 0)
+VPLUS INP GND SIN('VDL' 0.01 'freq' 0 0 0)
 
-X1 CLK INP INN VDD COMP_OUT VSS high_speed_comp_top 
+X1 COMP_OUT CLK INP VDD VSS 1bit_frontend 
 
 .control
 *  set filetype=ascii 
   setseed  8
   reset
   let run = 1
-  save all
-  op
-  write ${RAW_FILE}
   reset
   set appendwrite
-  dowhile run < = 2
-    save vdd i(vvdd) temperat clk comp_out inp x1.x1.vfilt
+  dowhile run < = 20
+    save vdd i(vvdd) temperat clk comp_out inp x1.vfilt freqv
     *save all
     tran 0.1n 10u uic
     write ${RAW_FILE}

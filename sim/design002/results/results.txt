@@ -1,0 +1,8 @@
+
+
+Results for corner tt
+Input frequency: 0.8631MHz
+Temp = 11.516933506946373 Deg C, VDD = 1.8242352349497961 V, VCM = 1.2308982147665948
+Input tone: 862822.4965812571 Hz
+Output tone: 870815.6550528392 Hz
+OK
