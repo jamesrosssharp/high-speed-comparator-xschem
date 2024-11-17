@@ -1,0 +1,53 @@
+Test bench for 1-bit frontend
+
+.lib /home/jrsharp/home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.tech/combined/sky130.lib.spice ${CORNER}
+.inc /home/jrsharp/home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+.inc 1bit_frontend.spice
+
+** Supply voltage
+.param VCCGAUSS = agauss(1.8, 0.05, 1)
+.param VCC = 'VCCGAUSS'
+
+** Common mode voltage
+.param VDLGAUSS = agauss(0.9, 0.33, 1)
+.param VDL = VDLGAUSS
+
+** Temperature 
+.param TEMPGAUSS = agauss(40, 30, 1)
+.option temp = 'TEMPGAUSS'
+
+E5 TEMPERAT VSS VOL=' temper '
+
+.param FREQGAUSS = agauss(10MEG, 1MEG, 1)
+
+
+VCLK CLK GND PULSE(0 1.8 0 1NS 1NS 10NS 20NS 0)
+VVSS VSS GND 0
+VVDD VDD GND 'VCC'
+
+VPLUS INP GND SIN('VDL' 0.01 'FREQGAUSS' 0 0 0)
+
+X1 CLK INP INN VDD COMP_OUT VSS high_speed_comp_top 
+
+.control
+*  set filetype=ascii 
+  setseed  8
+  reset
+  let run = 1
+  save all
+  op
+  write ${RAW_FILE}
+  reset
+  set appendwrite
+  dowhile run < = 2
+    save vdd i(vvdd) temperat clk comp_out inp x1.x1.vfilt
+    *save all
+    tran 0.1n 10u uic
+    write ${RAW_FILE}
+    let run = run + 1
+    reset
+  end
+  quit 0
+.endc
+
