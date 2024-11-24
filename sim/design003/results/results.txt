@@ -1,6 +1,6 @@
 
 
 Results for corner tt
-Crossover frequency = 8.3e+06 Hz
-Crossover phase = -64 Deg
-Phase margin = 116.49 Deg
+Crossover frequency = 5e+07 Hz
+Crossover phase = -91 Deg
+Phase margin = 88.52 Deg

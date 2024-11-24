@@ -6,6 +6,8 @@ from load_spice import load_spice
 
 import scipy.interpolate
 
+import bode_utils
+
 def load_corner(corner):
 
     plots = load_spice.load_spice("build/{}.raw".format(corner))
@@ -20,8 +22,12 @@ def load_corner(corner):
 
     #print(plots[0]['vars'])
 
-#    plt.semilogx(np.absolute(plots[0]['data']['frequency']), 10*np.log(np.abs(plots[0]['data']['v(vout)'])))
-#    plt.show()
+    #plt.semilogx(np.absolute(plots[0]['data']['frequency']), 10*np.log(np.abs(plots[0]['data']['v(vout)'])))
+    #plt.show()
+
+    bode_utils.bode_plot2(np.real(plots[0]['data']['frequency']), 
+                         plots[0]['data']['v(vout)'])
+    plt.show()
 
     freq = plots[0]['data']['frequency']
     vout = plots[0]['data']['v(vout)'] 
