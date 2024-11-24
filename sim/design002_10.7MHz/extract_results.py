@@ -50,7 +50,7 @@ def get_freq(time, data):
         data_resample = data_interp_f(tnew)
         data_resample = data_resample - np.mean(data_resample)
 
-        data_filter = butter_bandpass_filter(data_resample, 5e5, 1.5e6, clock_freq, 4)
+        data_filter = butter_bandpass_filter(data_resample, 10e6, 11.4e6, clock_freq, 4)
         
         plt.plot(tnew, data_filter)
         plt.show()
@@ -89,7 +89,7 @@ def load_corner(corner):
         print("Input tone: {} Hz".format(freq_in_est))
         print("Output tone: {} Hz".format(freq_out_est))
 
-        if freq_out_est > 0.95*freq_in_est and freq_out_est < 1.05*freq_in_est:
+        if freq_out_est > 0.995*freq_in_est and freq_out_est < 1.005*freq_in_est:
             print("OK")
         else:
             print("FAIL")

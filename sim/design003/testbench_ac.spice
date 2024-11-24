@@ -1,0 +1,25 @@
+Test bench for ac analysis of RF amp
+
+.lib /home/jrsharp/home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.tech/combined/sky130.lib.spice ${CORNER}
+
+.inc RF_amp.spice
+
+*.subckt RF_amp VDD VINN VOUT VINP VB VSS
+x1 VDD VINN VOUT VINP VB VSS RF_amp  
+
+V1 VDD GND 1.8
+VPLUS VINP GND DC 0.9 AC 1
+VMINUS VINN GND DC 0.9 AC 0
+
+V2 VB GND 0.7
+V3 VSS GND 0
+
+.control
+	op	
+	save all
+	ac dec 10 1 10G
+*	plot vdb(VOUT)
+*	plot ph(VOUT)
+    	write ${RAW_FILE}
+	quit 0		
+.endc
