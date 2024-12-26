@@ -1,6 +1,803 @@
 
 
 Results for corner tt
-Crossover frequency = 5e+07 Hz
+
+
+Vbias = 0.57285023374483 V
+DC Open loop gain = 169.89 dB
+Crossover frequency = 6.4e+06 Hz
+20dB closed loop bandwidth = 5.2e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 30.96 Deg
+
+
+Vbias = 0.7581671722885225 V
+DC Open loop gain = 145.40 dB
+Crossover frequency = 3.9e+08 Hz
+20dB closed loop bandwidth = 7.8e+06 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 37.60 Deg
+
+
+Vbias = 0.7581111759366471 V
+DC Open loop gain = 145.42 dB
+Crossover frequency = 3.9e+08 Hz
+20dB closed loop bandwidth = 7.8e+06 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 37.73 Deg
+
+
+Vbias = 0.5483708775555716 V
+DC Open loop gain = 170.72 dB
+Crossover frequency = 4.2e+06 Hz
+20dB closed loop bandwidth = 3.1e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 24.20 Deg
+
+
+Vbias = 0.5383282851334661 V
+DC Open loop gain = 170.94 dB
+Crossover frequency = 3.5e+06 Hz
+20dB closed loop bandwidth = 2.5e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 21.71 Deg
+
+
+Vbias = 0.5303464452968911 V
+DC Open loop gain = 171.08 dB
+Crossover frequency = 3e+06 Hz
+20dB closed loop bandwidth = 2.1e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 20.15 Deg
+
+
+Vbias = 0.5070163345197216 V
+DC Open loop gain = 171.48 dB
+Crossover frequency = 1.9e+06 Hz
+20dB closed loop bandwidth = 1.3e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 16.37 Deg
+
+
+Vbias = 0.8963132797041914 V
+DC Open loop gain = 58.28 dB
+Crossover frequency = 1.1e+09 Hz
+20dB closed loop bandwidth = 5.6e+06 Hz
+Crossover phase = 1.5e+02 Deg
+Phase margin = 33.78 Deg
+
+
+Vbias = 0.6317128620948644 V
+DC Open loop gain = 165.54 dB
+Crossover frequency = 1.7e+07 Hz
+20dB closed loop bandwidth = 1.6e+06 Hz
+Crossover phase = -1.3e+02 Deg
+Phase margin = 52.09 Deg
+
+
+Vbias = 0.49347177088260646 V
+DC Open loop gain = 171.78 dB
+Crossover frequency = 1.4e+06 Hz
+20dB closed loop bandwidth = 9.3e+04 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 15.03 Deg
+
+
+Vbias = 0.7327491614641625 V
+DC Open loop gain = 151.36 dB
+Crossover frequency = 1.4e+08 Hz
+20dB closed loop bandwidth = 6.2e+06 Hz
+Crossover phase = -92 Deg
+Phase margin = 87.59 Deg
+
+
+Vbias = 0.8480728452559565 V
+DC Open loop gain = 101.31 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 65.52 Deg
+
+
+Vbias = 0.8809796812990686 V
+DC Open loop gain = 72.11 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 8.2e+06 Hz
+Crossover phase = 1.3e+02 Deg
+Phase margin = 54.49 Deg
+
+
+Vbias = 0.8935571895772597 V
+DC Open loop gain = 60.70 dB
+Crossover frequency = 1.1e+09 Hz
+20dB closed loop bandwidth = 6.1e+06 Hz
+Crossover phase = 1.4e+02 Deg
+Phase margin = 38.74 Deg
+
+
+Vbias = 0.5265878511499613 V
+DC Open loop gain = 171.15 dB
+Crossover frequency = 2.8e+06 Hz
+20dB closed loop bandwidth = 2e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 19.29 Deg
+
+
+Vbias = 0.850792239522562 V
+DC Open loop gain = 99.10 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 65.41 Deg
+
+
+Vbias = 0.7538884789403532 V
+DC Open loop gain = 146.52 dB
+Crossover frequency = 3.3e+08 Hz
+20dB closed loop bandwidth = 7.5e+06 Hz
+Crossover phase = -1.3e+02 Deg
+Phase margin = 48.71 Deg
+
+
+Vbias = 0.6963059336971494 V
+DC Open loop gain = 157.72 dB
+Crossover frequency = 4.7e+07 Hz
+20dB closed loop bandwidth = 4.1e+06 Hz
+Crossover phase = -94 Deg
+Phase margin = 86.37 Deg
+
+
+Vbias = 0.5160556834423915 V
+DC Open loop gain = 171.32 dB
+Crossover frequency = 2.3e+06 Hz
+20dB closed loop bandwidth = 1.5e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 17.49 Deg
+
+
+Vbias = 0.6654865554999563 V
+DC Open loop gain = 161.84 dB
+Crossover frequency = 2.7e+07 Hz
+20dB closed loop bandwidth = 2.7e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 68.77 Deg
+
+
+Vbias = 0.7330340361874554 V
+DC Open loop gain = 151.30 dB
+Crossover frequency = 1.4e+08 Hz
+20dB closed loop bandwidth = 6.2e+06 Hz
+Crossover phase = -93 Deg
+Phase margin = 87.28 Deg
+
+
+Vbias = 0.8217580930842091 V
+DC Open loop gain = 119.69 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 59.26 Deg
+
+
+Vbias = 0.8941140990518038 V
+DC Open loop gain = 60.20 dB
+Crossover frequency = 1.1e+09 Hz
+20dB closed loop bandwidth = 6e+06 Hz
+Crossover phase = 1.4e+02 Deg
+Phase margin = 37.80 Deg
+
+
+Vbias = 0.7227176536060873 V
+DC Open loop gain = 153.32 dB
+Crossover frequency = 9.6e+07 Hz
+20dB closed loop bandwidth = 5.6e+06 Hz
+Crossover phase = -86 Deg
+Phase margin = 94.48 Deg
+
+
+Vbias = 0.7707161515438933 V
+DC Open loop gain = 141.80 dB
+Crossover frequency = 6.1e+08 Hz
+20dB closed loop bandwidth = 8.7e+06 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 60.84 Deg
+
+
+Vbias = 0.5502353359013796 V
+DC Open loop gain = 170.67 dB
+Crossover frequency = 4.4e+06 Hz
+20dB closed loop bandwidth = 3.3e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 24.52 Deg
+
+
+Vbias = 0.6734642019541937 V
+DC Open loop gain = 160.85 dB
+Crossover frequency = 3.1e+07 Hz
+20dB closed loop bandwidth = 3.1e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 73.34 Deg
+
+
+Vbias = 0.8867723884852609 V
+DC Open loop gain = 66.79 dB
+Crossover frequency = 1.2e+09 Hz
+20dB closed loop bandwidth = 7.3e+06 Hz
+Crossover phase = 1.3e+02 Deg
+Phase margin = 48.21 Deg
+
+
+Vbias = 0.5171154847973958 V
+DC Open loop gain = 171.30 dB
+Crossover frequency = 2.3e+06 Hz
+20dB closed loop bandwidth = 1.6e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 17.69 Deg
+
+
+Vbias = 0.868361942581833 V
+DC Open loop gain = 83.74 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 9.8e+06 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 63.33 Deg
+
+
+Vbias = 0.6438602073024959 V
+DC Open loop gain = 164.29 dB
+Crossover frequency = 2e+07 Hz
+20dB closed loop bandwidth = 1.9e+06 Hz
+Crossover phase = -1.2e+02 Deg
+Phase margin = 57.81 Deg
+
+
+Vbias = 0.8460973188979557 V
+DC Open loop gain = 102.88 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.2e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 65.51 Deg
+
+
+Vbias = 0.653956994218752 V
+DC Open loop gain = 163.18 dB
+Crossover frequency = 2.3e+07 Hz
+20dB closed loop bandwidth = 2.3e+06 Hz
+Crossover phase = -1.2e+02 Deg
+Phase margin = 62.60 Deg
+
+
+Vbias = 0.6047804253501818 V
+DC Open loop gain = 167.93 dB
+Crossover frequency = 1.1e+07 Hz
+20dB closed loop bandwidth = 9.8e+05 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 41.04 Deg
+
+
+Vbias = 0.5261718953354284 V
+DC Open loop gain = 171.15 dB
+Crossover frequency = 2.8e+06 Hz
+20dB closed loop bandwidth = 1.9e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 19.23 Deg
+
+
+Vbias = 0.7688847985444595 V
+DC Open loop gain = 142.36 dB
+Crossover frequency = 5.8e+08 Hz
+20dB closed loop bandwidth = 8.5e+06 Hz
+Crossover phase = 40 Deg
+Phase margin = 140.46 Deg
+
+
+Vbias = 0.5597130575636402 V
+DC Open loop gain = 170.40 dB
+Crossover frequency = 5.1e+06 Hz
+20dB closed loop bandwidth = 4e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 27.27 Deg
+
+
+Vbias = 0.8267137724254284 V
+DC Open loop gain = 116.66 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 1.2e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 61.46 Deg
+
+
+Vbias = 0.847495406866074 V
+DC Open loop gain = 101.78 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 65.53 Deg
+
+
+Vbias = 0.8222094913013284 V
+DC Open loop gain = 119.42 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 59.48 Deg
+
+
+Vbias = 0.49189416151959436 V
+DC Open loop gain = 171.82 dB
+Crossover frequency = 1.4e+06 Hz
+20dB closed loop bandwidth = 9e+04 Hz
+Crossover phase = -1.7e+02 Deg
+Phase margin = 14.98 Deg
+
+
+Vbias = 0.9019898826535796 V
+DC Open loop gain = 53.41 dB
+Crossover frequency = 9.5e+08 Hz
+20dB closed loop bandwidth = 4.3e+06 Hz
+Crossover phase = 1.6e+02 Deg
+Phase margin = 21.48 Deg
+
+
+Vbias = 0.6336051963316278 V
+DC Open loop gain = 165.35 dB
+Crossover frequency = 1.7e+07 Hz
+20dB closed loop bandwidth = 1.6e+06 Hz
+Crossover phase = -1.3e+02 Deg
+Phase margin = 52.81 Deg
+
+
+Vbias = 0.675530456728302 V
+DC Open loop gain = 160.59 dB
+Crossover frequency = 3.2e+07 Hz
+20dB closed loop bandwidth = 3.1e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 74.58 Deg
+
+
+Vbias = 0.7186844248929996 V
+DC Open loop gain = 154.06 dB
+Crossover frequency = 8.3e+07 Hz
+20dB closed loop bandwidth = 5.4e+06 Hz
+Crossover phase = -85 Deg
+Phase margin = 94.99 Deg
+
+
+Vbias = 0.5138321136590094 V
+DC Open loop gain = 171.36 dB
+Crossover frequency = 2.2e+06 Hz
+20dB closed loop bandwidth = 1.5e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 17.19 Deg
+
+
+Vbias = 0.9082079291809356 V
+DC Open loop gain = 48.30 dB
+Crossover frequency = 7.9e+08 Hz
+20dB closed loop bandwidth = 2.4e+06 Hz
+Crossover phase = 1.7e+02 Deg
+Phase margin = 11.41 Deg
+
+
+Vbias = 0.7597470487887044 V
+DC Open loop gain = 144.98 dB
+Crossover frequency = 4.2e+08 Hz
+20dB closed loop bandwidth = 7.9e+06 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 32.85 Deg
+
+
+Vbias = 0.7419949526665736 V
+DC Open loop gain = 149.37 dB
+Crossover frequency = 2.1e+08 Hz
+20dB closed loop bandwidth = 6.8e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 74.39 Deg
+
+
+Vbias = 0.4995369245111942 V
+DC Open loop gain = 171.64 dB
+Crossover frequency = 1.6e+06 Hz
+20dB closed loop bandwidth = 1.1e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 15.82 Deg
+
+
+Vbias = 0.8461163744283845 V
+DC Open loop gain = 102.87 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.2e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 65.51 Deg
+
+
+Vbias = 0.7464931005705152 V
+DC Open loop gain = 148.33 dB
+Crossover frequency = 2.5e+08 Hz
+20dB closed loop bandwidth = 7.1e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 66.02 Deg
+
+
+Vbias = 0.5795304167829455 V
+DC Open loop gain = 169.57 dB
+Crossover frequency = 7.3e+06 Hz
+20dB closed loop bandwidth = 6e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 32.58 Deg
+
+
+Vbias = 0.5225016867788509 V
+DC Open loop gain = 171.21 dB
+Crossover frequency = 2.6e+06 Hz
+20dB closed loop bandwidth = 1.8e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 18.88 Deg
+
+
+Vbias = 0.5730021943245084 V
+DC Open loop gain = 169.88 dB
+Crossover frequency = 6.5e+06 Hz
+20dB closed loop bandwidth = 5.2e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 30.98 Deg
+
+
+Vbias = 0.5373167994013056 V
+DC Open loop gain = 170.96 dB
+Crossover frequency = 3.4e+06 Hz
+20dB closed loop bandwidth = 2.5e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 21.53 Deg
+
+
+Vbias = 0.542572393687442 V
+DC Open loop gain = 170.85 dB
+Crossover frequency = 3.8e+06 Hz
+20dB closed loop bandwidth = 2.8e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 22.78 Deg
+
+
+Vbias = 0.6836948288790884 V
+DC Open loop gain = 159.51 dB
+Crossover frequency = 3.7e+07 Hz
+20dB closed loop bandwidth = 3.5e+06 Hz
+Crossover phase = -1e+02 Deg
+Phase margin = 79.13 Deg
+
+
+Vbias = 0.6405419541895392 V
+DC Open loop gain = 164.64 dB
+Crossover frequency = 1.9e+07 Hz
+20dB closed loop bandwidth = 1.8e+06 Hz
+Crossover phase = -1.2e+02 Deg
+Phase margin = 56.02 Deg
+
+
+Vbias = 0.7281869467906658 V
+DC Open loop gain = 152.27 dB
+Crossover frequency = 1.2e+08 Hz
+20dB closed loop bandwidth = 5.9e+06 Hz
+Crossover phase = -88 Deg
+Phase margin = 91.80 Deg
+
+
+Vbias = 0.4928906342154368 V
+DC Open loop gain = 171.79 dB
+Crossover frequency = 1.4e+06 Hz
+20dB closed loop bandwidth = 9.2e+04 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 15.00 Deg
+
+
+Vbias = 0.7060205724649135 V
+DC Open loop gain = 156.21 dB
+Crossover frequency = 5.8e+07 Hz
+20dB closed loop bandwidth = 4.7e+06 Hz
+Crossover phase = -89 Deg
+Phase margin = 91.34 Deg
+
+
+Vbias = 0.7798912989906971 V
+DC Open loop gain = 138.80 dB
+Crossover frequency = 7.7e+08 Hz
+20dB closed loop bandwidth = 9.2e+06 Hz
+Crossover phase = 1e+02 Deg
+Phase margin = 79.72 Deg
+
+
+Vbias = 0.6944554105587306 V
+DC Open loop gain = 157.99 dB
+Crossover frequency = 4.5e+07 Hz
+20dB closed loop bandwidth = 4e+06 Hz
+Crossover phase = -95 Deg
+Phase margin = 85.31 Deg
+
+
+Vbias = 0.6167676690546797 V
+DC Open loop gain = 166.94 dB
+Crossover frequency = 1.3e+07 Hz
+20dB closed loop bandwidth = 1.2e+06 Hz
+Crossover phase = -1.3e+02 Deg
+Phase margin = 45.79 Deg
+
+
+Vbias = 0.6056838135048749 V
+DC Open loop gain = 167.86 dB
+Crossover frequency = 1.1e+07 Hz
+20dB closed loop bandwidth = 9.9e+05 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 41.34 Deg
+
+
+Vbias = 0.6994170992216098 V
+DC Open loop gain = 157.25 dB
+Crossover frequency = 4.9e+07 Hz
+20dB closed loop bandwidth = 4.3e+06 Hz
+Crossover phase = -92 Deg
+Phase margin = 88.18 Deg
+
+
+Vbias = 0.5053141225781291 V
+DC Open loop gain = 171.52 dB
+Crossover frequency = 1.8e+06 Hz
+20dB closed loop bandwidth = 1.2e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 16.07 Deg
+
+
+Vbias = 0.5149732388788835 V
+DC Open loop gain = 171.34 dB
+Crossover frequency = 2.2e+06 Hz
+20dB closed loop bandwidth = 1.5e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 17.32 Deg
+
+
+Vbias = 0.8467116822674876 V
+DC Open loop gain = 102.40 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.2e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 65.52 Deg
+
+
+Vbias = 0.687630226183683 V
+DC Open loop gain = 158.97 dB
+Crossover frequency = 3.9e+07 Hz
+20dB closed loop bandwidth = 3.7e+06 Hz
+Crossover phase = -98 Deg
+Phase margin = 81.52 Deg
+
+
+Vbias = 0.8255048130219805 V
+DC Open loop gain = 117.41 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 1.2e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 60.97 Deg
+
+
+Vbias = 0.8152902007848029 V
+DC Open loop gain = 123.37 dB
+Crossover frequency = 1.2e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 56.19 Deg
+
+
+Vbias = 0.9071352517697966 V
+DC Open loop gain = 49.16 dB
+Crossover frequency = 8.2e+08 Hz
+20dB closed loop bandwidth = 2.8e+06 Hz
+Crossover phase = 1.7e+02 Deg
+Phase margin = 6.94 Deg
+
+
+Vbias = 0.7253281078441072 V
+DC Open loop gain = 152.83 dB
+Crossover frequency = 1.1e+08 Hz
+20dB closed loop bandwidth = 5.8e+06 Hz
+Crossover phase = -86 Deg
+Phase margin = 93.56 Deg
+
+
+Vbias = 0.5611051367968322 V
+DC Open loop gain = 170.35 dB
+Crossover frequency = 5.3e+06 Hz
+20dB closed loop bandwidth = 4.1e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 27.48 Deg
+
+
+Vbias = 0.5075626801559702 V
+DC Open loop gain = 171.47 dB
+Crossover frequency = 1.9e+06 Hz
+20dB closed loop bandwidth = 1.3e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 16.49 Deg
+
+
+Vbias = 0.802868288289756 V
+DC Open loop gain = 129.62 dB
+Crossover frequency = 1.1e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.3e+02 Deg
+Phase margin = 47.73 Deg
+
+
+Vbias = 0.5619937472930179 V
+DC Open loop gain = 170.32 dB
+Crossover frequency = 5.4e+06 Hz
+20dB closed loop bandwidth = 4.2e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 27.63 Deg
+
+
+Vbias = 0.5296659814426676 V
+DC Open loop gain = 171.09 dB
+Crossover frequency = 3e+06 Hz
+20dB closed loop bandwidth = 2.1e+05 Hz
+Crossover phase = -1.6e+02 Deg
+Phase margin = 19.96 Deg
+
+
+Vbias = 0.868832201827318 V
+DC Open loop gain = 83.31 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 9.8e+06 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 63.10 Deg
+
+
+Vbias = 0.8813874748721724 V
+DC Open loop gain = 71.73 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 8.1e+06 Hz
+Crossover phase = 1.3e+02 Deg
+Phase margin = 54.09 Deg
+
+
+Vbias = 0.6062714932253586 V
+DC Open loop gain = 167.82 dB
+Crossover frequency = 1.1e+07 Hz
+20dB closed loop bandwidth = 1e+06 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 41.55 Deg
+
+
+Vbias = 0.8931063076853758 V
+DC Open loop gain = 61.10 dB
+Crossover frequency = 1.1e+09 Hz
+20dB closed loop bandwidth = 6.2e+06 Hz
+Crossover phase = 1.4e+02 Deg
+Phase margin = 39.48 Deg
+
+
+Vbias = 0.7056334251537922 V
+DC Open loop gain = 156.28 dB
+Crossover frequency = 5.7e+07 Hz
+20dB closed loop bandwidth = 4.6e+06 Hz
+Crossover phase = -89 Deg
+Phase margin = 91.16 Deg
+
+
+Vbias = 0.598750988324173 V
+DC Open loop gain = 168.38 dB
+Crossover frequency = 9.9e+06 Hz
+20dB closed loop bandwidth = 8.8e+05 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 39.26 Deg
+
+
+Vbias = 0.8350296344002713 V
+DC Open loop gain = 111.12 dB
+Crossover frequency = 1.4e+09 Hz
+20dB closed loop bandwidth = 1.2e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 64.06 Deg
+
+
+Vbias = 0.6381687179533767 V
+DC Open loop gain = 164.89 dB
+Crossover frequency = 1.8e+07 Hz
+20dB closed loop bandwidth = 1.8e+06 Hz
+Crossover phase = -1.3e+02 Deg
+Phase margin = 54.83 Deg
+
+
+Vbias = 0.8574939945898955 V
+DC Open loop gain = 93.44 dB
+Crossover frequency = 1.5e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.1e+02 Deg
+Phase margin = 66.83 Deg
+
+
+Vbias = 0.6007675272366033 V
+DC Open loop gain = 168.24 dB
+Crossover frequency = 1e+07 Hz
+20dB closed loop bandwidth = 9.1e+05 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 39.92 Deg
+
+
+Vbias = 0.8210634040785958 V
+DC Open loop gain = 120.10 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 58.91 Deg
+
+
+Vbias = 0.8210904328245674 V
+DC Open loop gain = 120.09 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 1.1e+07 Hz
+Crossover phase = 1.2e+02 Deg
+Phase margin = 58.92 Deg
+
+
+Vbias = 0.5906482393946498 V
+DC Open loop gain = 168.93 dB
+Crossover frequency = 8.8e+06 Hz
+20dB closed loop bandwidth = 7.5e+05 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 36.13 Deg
+
+
+Vbias = 0.7464157094806436 V
+DC Open loop gain = 148.35 dB
+Crossover frequency = 2.5e+08 Hz
+20dB closed loop bandwidth = 7.1e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 66.15 Deg
+
+
+Vbias = 0.5961493945401163 V
+DC Open loop gain = 168.57 dB
+Crossover frequency = 9.5e+06 Hz
+20dB closed loop bandwidth = 8.3e+05 Hz
+Crossover phase = -1.4e+02 Deg
+Phase margin = 38.10 Deg
+
+
+Vbias = 0.8932666763477033 V
+DC Open loop gain = 60.95 dB
+Crossover frequency = 1.1e+09 Hz
+20dB closed loop bandwidth = 6.1e+06 Hz
+Crossover phase = 1.4e+02 Deg
+Phase margin = 39.22 Deg
+
+
+Vbias = 0.5822868499532343 V
+DC Open loop gain = 169.42 dB
+Crossover frequency = 7.6e+06 Hz
+20dB closed loop bandwidth = 6.3e+05 Hz
+Crossover phase = -1.5e+02 Deg
+Phase margin = 33.59 Deg
+
+
+Vbias = 0.7014752163970844 V
+DC Open loop gain = 156.93 dB
+Crossover frequency = 5.2e+07 Hz
+20dB closed loop bandwidth = 4.4e+06 Hz
 Crossover phase = -91 Deg
-Phase margin = 88.52 Deg
+Phase margin = 89.23 Deg
+
+
+Vbias = 0.8835128510370854 V
+DC Open loop gain = 69.77 dB
+Crossover frequency = 1.3e+09 Hz
+20dB closed loop bandwidth = 7.8e+06 Hz
+Crossover phase = 1.3e+02 Deg
+Phase margin = 51.86 Deg
+
+
+Vbias = 0.6692558198794725 V
+DC Open loop gain = 161.38 dB
+Crossover frequency = 2.9e+07 Hz
+20dB closed loop bandwidth = 2.9e+06 Hz
+Crossover phase = -1.1e+02 Deg
+Phase margin = 70.85 Deg

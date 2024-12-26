@@ -118,7 +118,7 @@ L=1
 model=res_xhigh_po_0p35
 spiceprefix=X
 mult=1}
-C {sky130_fd_pr/cap_mim_m3_2.sym} 350 30 3 0 {name=C1 model=cap_mim_m3_2 W=50 L=50 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_2.sym} 350 30 3 0 {name=C1 model=cap_mim_m3_2 W=20 L=20 MF=1 spiceprefix=X}
 C {ipin.sym} -240 -200 0 0 {name=p1 lab=VDD}
 C {ipin.sym} -240 0 0 0 {name=p2 lab=VINN}
 C {ipin.sym} -240 100 0 0 {name=p3 lab=VINP}
