@@ -54,8 +54,8 @@ def load_corner(corner):
         power_av.append(np.mean(power))
 
 
-        #plt.plot(plot['data']['time'][100:], power)
-        #plt.show()
+        plt.plot(plot['data']['time'][100:], power)
+        plt.show()
 
         #print("%d, " % n, end="")
         #print("{:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, ".format(plot['data']['v(temperat)'][0], 
