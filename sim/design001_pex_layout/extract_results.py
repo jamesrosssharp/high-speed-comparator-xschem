@@ -41,7 +41,8 @@ def load_corner(corner):
             if plot['data']['v(comp_out)'][i] < 0.5:
                 out_point = i
                 break
-
+    
+       
         cross_time = plot['data']['time'][cross_point] 
         out_time = plot['data']['time'][out_point]
 
@@ -54,20 +55,27 @@ def load_corner(corner):
         power_av.append(np.mean(power))
 
 
-        plt.plot(plot['data']['time'][100:], power)
+        #plt.plot(plot['data']['time'][100:], power)
         #plt.show()
 
         #print("%d, " % n, end="")
-        #print("{:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, ".format(plot['data']['v(temperat)'][0], 
-        #    plot['data']['v(inp)'][0], plot['data']['v(vdd)'][0], cross_time, out_time, pd), end="") 
-        if pd < 30e-9 and pd > 0:
+        print("{:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, {:1.2g}, ".format(plot['data']['v(temperat)'][0], 
+        plot['data']['v(inp)'][0], plot['data']['v(vdd)'][0], cross_time, out_time, pd), end="") 
+        
+
+        if pd < 30e-9 and pd >= 0:
             vdd.append(plot['data']['v(vdd)'][0])
             temp.append(plot['data']['v(temperat)'][0])
             vcm.append(plot['data']['v(inp)'][0])
             pds.append(pd)
-        #    print("OK")
+            print("OK")
         else:
-        #    print("Failed")
+            plt.plot(plot['data']['v(inn)'])
+            plt.plot(plot['data']['v(inp)'])
+            plt.plot(plot['data']['v(comp_out)'])
+            plt.show()
+
+            print("Failed")
             failures.append((plot['data']['v(temperat)'][0],
             plot['data']['v(inp)'][0], plot['data']['v(vdd)'][0]))
 

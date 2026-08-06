@@ -1,0 +1,59 @@
+
+Magic 8.3 revision 676 - Compiled on Mon Jul 20 10:33:11 UTC 2026.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Switching to WIRING tool.
+Switching to NETLIST tool.
+Switching to PICK tool.
+Switching to BOX tool.
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.495-0-ga918dc7
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:   0.000 x 0.000   ( 0.000,  0.000), ( 0.000,  0.000)
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+Warning: cell <strong_arm_latch> from file strong_arm_latch.mag is not writeable
+Cell strong_arm_latch read from current working directory
+Warning: cell <sky130_fd_pr__nfet_01v8_lvt_6A2LN6> from file sky130_fd_pr__nfet_01v8_lvt_6A2LN6.mag is not writeable
+Cell sky130_fd_pr__nfet_01v8_lvt_6A2LN6 read from current working directory
+Warning: cell <sky130_fd_pr__nfet_01v8_lvt_XF63F2> from file sky130_fd_pr__nfet_01v8_lvt_XF63F2.mag is not writeable
+Cell sky130_fd_pr__nfet_01v8_lvt_XF63F2 read from current working directory
+Warning: cell <sky130_fd_pr__pfet_01v8_4THXWW> from file sky130_fd_pr__pfet_01v8_4THXWW.mag is not writeable
+Cell sky130_fd_pr__pfet_01v8_4THXWW read from current working directory
+Warning: cell <sky130_fd_pr__pfet_01v8_7X63HF> from file sky130_fd_pr__pfet_01v8_7X63HF.mag is not writeable
+Cell sky130_fd_pr__pfet_01v8_7X63HF read from current working directory
+Warning: cell <sky130_fd_pr__nfet_01v8_9XUEHQ> from file sky130_fd_pr__nfet_01v8_9XUEHQ.mag is not writeable
+Cell sky130_fd_pr__nfet_01v8_9XUEHQ read from current working directory
+Warning: cell <sky130_fd_pr__nfet_01v8_VEAVJH> from file sky130_fd_pr__nfet_01v8_VEAVJH.mag is not writeable
+Cell sky130_fd_pr__nfet_01v8_VEAVJH read from current working directory
+Warning: cell <sky130_fd_pr__pfet_01v8_LD44SC> from file sky130_fd_pr__pfet_01v8_LD44SC.mag is not writeable
+Cell sky130_fd_pr__pfet_01v8_LD44SC read from current working directory
+Warning: cell <sky130_fd_pr__pfet_01v8_D9KQBY> from file sky130_fd_pr__pfet_01v8_D9KQBY.mag is not writeable
+Cell sky130_fd_pr__pfet_01v8_D9KQBY read from current working directory
+Extracting strong_arm_latch into extfiles/strong_arm_latch.ext:
+Processing strong_arm_latch
+Processing cell strong_arm_latch for resistance extraction.
+Extracting a_746_n2728#
+Extracting a_1988_n1488#
+Extracting a_1004_n2728#
+Extracting VSS
+Extracting VDD
+Extracting CLK
+Extracting VOUT_PLUS
+Extracting VOUT_MINUS
+Extracting VINP
+Extracting VINN
+Total Nets: 10
+Nets extracted: 10 (1.000000)
+Nets output: 4 (0.400000)
+exttospice finished.

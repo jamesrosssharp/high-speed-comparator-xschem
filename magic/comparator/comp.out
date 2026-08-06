@@ -43,48 +43,48 @@ Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_6A2LN6 in circuit strong_arm_latch (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_XF63F2 in circuit strong_arm_latch (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_9XUEHQ in circuit strong_arm_latch (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_VEAVJH in circuit strong_arm_latch (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LD44SC in circuit strong_arm_latch (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_D9KQBY in circuit strong_arm_latch (1)(1 instance)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_7X63HF in circuit strong_arm_latch (1)(3 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4THXWW in circuit strong_arm_latch (1)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_6A2LN6 in circuit strong_arm_latch (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_lvt_XF63F2 in circuit strong_arm_latch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_9XUEHQ in circuit strong_arm_latch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_VEAVJH in circuit strong_arm_latch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LD44SC in circuit strong_arm_latch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_D9KQBY in circuit strong_arm_latch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4THXWW in circuit strong_arm_latch (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_7X63HF in circuit strong_arm_latch (0)(3 instances)
 
-Class strong_arm_latch (1):  Merged 7 parallel devices.
+Class strong_arm_latch (0):  Merged 7 parallel devices.
 Subcircuit summary:
 Circuit 1: strong_arm_latch                |Circuit 2: strong_arm_latch                
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8_lvt (3)            |sky130_fd_pr__nfet_01v8_lvt (6->3)         
+sky130_fd_pr__nfet_01v8_lvt (6->3)         |sky130_fd_pr__nfet_01v8_lvt (3)            
 sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
-sky130_fd_pr__pfet_01v8 (6)                |sky130_fd_pr__pfet_01v8 (10->6)            
+sky130_fd_pr__pfet_01v8 (10->6)            |sky130_fd_pr__pfet_01v8 (6)                
 Number of devices: 11                      |Number of devices: 11                      
 Number of nets: 10                         |Number of nets: 10                         
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
 Resolving symmetries by pin name.
 Netlists match uniquely with property errors.
-sky130_fd_pr__pfet_01v8:M10 vs. sky130_fd_pr__pfet_01v8_7X63HF:XM10/sky130_fd_pr__pfet_01v8:0:
- W circuit1: 5   circuit2: 10   (delta=66.7%, cutoff=1%)
-sky130_fd_pr__pfet_01v8:M8 vs. sky130_fd_pr__pfet_01v8_4THXWW:XM8/sky130_fd_pr__pfet_01v8:0:
- W circuit1: 5   circuit2: 10   (delta=66.7%, cutoff=1%)
-sky130_fd_pr__pfet_01v8:M9 vs. sky130_fd_pr__pfet_01v8_7X63HF:XM9/sky130_fd_pr__pfet_01v8:0:
- W circuit1: 5   circuit2: 10   (delta=66.7%, cutoff=1%)
-sky130_fd_pr__pfet_01v8:M11 vs. sky130_fd_pr__pfet_01v8_7X63HF:XM11/sky130_fd_pr__pfet_01v8:0:
- W circuit1: 5   circuit2: 10   (delta=66.7%, cutoff=1%)
-sky130_fd_pr__nfet_01v8_lvt:M2 vs. sky130_fd_pr__nfet_01v8_lvt_6A2LN6:XM2/sky130_fd_pr__nfet_01v8_lvt:0:
- W circuit1: 5   circuit2: 10   (delta=66.7%, cutoff=1%)
-sky130_fd_pr__nfet_01v8_lvt:M1 vs. sky130_fd_pr__nfet_01v8_lvt_6A2LN6:XM1/sky130_fd_pr__nfet_01v8_lvt:0:
- W circuit1: 5   circuit2: 10   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8_7X63HF:XM10/sky130_fd_pr__pfet_01v8:0 vs. sky130_fd_pr__pfet_01v8:M10:
+ w circuit1: 10   circuit2: 5   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8_4THXWW:XM8/sky130_fd_pr__pfet_01v8:0 vs. sky130_fd_pr__pfet_01v8:M8:
+ w circuit1: 10   circuit2: 5   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8_7X63HF:XM9/sky130_fd_pr__pfet_01v8:0 vs. sky130_fd_pr__pfet_01v8:M9:
+ w circuit1: 10   circuit2: 5   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_01v8_7X63HF:XM11/sky130_fd_pr__pfet_01v8:0 vs. sky130_fd_pr__pfet_01v8:M11:
+ w circuit1: 10   circuit2: 5   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_01v8_lvt_6A2LN6:XM2/sky130_fd_pr__nfet_01v8_lvt:0 vs. sky130_fd_pr__nfet_01v8_lvt:M2:
+ w circuit1: 10   circuit2: 5   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_01v8_lvt_6A2LN6:XM1/sky130_fd_pr__nfet_01v8_lvt:0 vs. sky130_fd_pr__nfet_01v8_lvt:M1:
+ w circuit1: 10   circuit2: 5   (delta=66.7%, cutoff=1%)
 
 Subcircuit pins:
 Circuit 1: strong_arm_latch                |Circuit 2: strong_arm_latch                
 -------------------------------------------|-------------------------------------------
 VDD                                        |VDD                                        
 CLK                                        |CLK                                        
-VOUT_MINUS                                 |VOUT_MINUS                                 
 VOUT_PLUS                                  |VOUT_PLUS                                  
+VOUT_MINUS                                 |VOUT_MINUS                                 
 VSS                                        |VSS                                        
 VINP                                       |VINP                                       
 VINN                                       |VINN                                       
