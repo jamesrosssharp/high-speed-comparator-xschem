@@ -42,7 +42,13 @@ def load_corner(corner):
                 out_point = i
                 break
     
-       
+        if 0:
+            plt.plot(plot['data']['v(inn)'])
+            plt.plot(plot['data']['v(inp)'])
+            plt.plot(plot['data']['v(comp_out)'])
+            plt.show()
+
+      
         cross_time = plot['data']['time'][cross_point] 
         out_time = plot['data']['time'][out_point]
 
@@ -70,10 +76,11 @@ def load_corner(corner):
             pds.append(pd)
             print("OK")
         else:
-            plt.plot(plot['data']['v(inn)'])
-            plt.plot(plot['data']['v(inp)'])
-            plt.plot(plot['data']['v(comp_out)'])
-            plt.show()
+            if 0:
+                plt.plot(plot['data']['v(inn)'])
+                plt.plot(plot['data']['v(inp)'])
+                plt.plot(plot['data']['v(comp_out)'])
+                plt.show()
 
             print("Failed")
             failures.append((plot['data']['v(temperat)'][0],
