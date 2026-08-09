@@ -5,7 +5,7 @@
 PDK_ROOT=/home/jrsharp/old_home_mnt/asic/sky130_pdk/share/pdk/
 PDK=sky130A
 
-CELL="strong_arm_latch"
+for CELL in strong_arm_latch post_amplifier; do
 
 PDK_ROOT=${PDK_ROOT} magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc > magic.lvs.log << EOF
 drc off
@@ -32,6 +32,8 @@ quit -noprompt
 EOF
 
 rm -rf extfiles
+
+done
 
 echo "Done!"
 exit 0 

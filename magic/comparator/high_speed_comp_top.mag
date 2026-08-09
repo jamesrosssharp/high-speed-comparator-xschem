@@ -1,107 +1,60 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1785931213
+timestamp 1786264432
 << error_s >>
-rect 2150 -3372 2208 -3366
-rect 2566 -3372 2624 -3366
-rect 2150 -3406 2162 -3372
-rect 2566 -3406 2578 -3372
-rect 2970 -3382 3028 -3376
-rect 2150 -3412 2208 -3406
-rect 2566 -3412 2624 -3406
-rect 2970 -3416 2982 -3382
-rect 3388 -3386 3446 -3380
-rect 2970 -3422 3028 -3416
-rect 3388 -3420 3400 -3386
-rect 3388 -3426 3446 -3420
-rect 2150 -3700 2208 -3694
-rect 2566 -3700 2624 -3694
-rect 2150 -3734 2162 -3700
-rect 2566 -3734 2578 -3700
-rect 2970 -3710 3028 -3704
-rect 2150 -3740 2208 -3734
-rect 2566 -3740 2624 -3734
-rect 2970 -3744 2982 -3710
-rect 3388 -3714 3446 -3708
-rect 2970 -3750 3028 -3744
-rect 3388 -3748 3400 -3714
-rect 3388 -3754 3446 -3748
-rect 2280 -4838 2338 -4832
-rect 1854 -4844 1912 -4838
-rect 1854 -4878 1866 -4844
-rect 2280 -4872 2292 -4838
-rect 2686 -4844 2744 -4838
-rect 2280 -4878 2338 -4872
-rect 2686 -4878 2698 -4844
-rect 1854 -4884 1912 -4878
-rect 2686 -4884 2744 -4878
-rect 2280 -5148 2338 -5142
-rect 1854 -5154 1912 -5148
-rect 1854 -5188 1866 -5154
-rect 2280 -5182 2292 -5148
-rect 2686 -5154 2744 -5148
-rect 2280 -5188 2338 -5182
-rect 2686 -5188 2698 -5154
-rect 1854 -5194 1912 -5188
-rect 2686 -5194 2744 -5188
-rect 2932 -5284 2944 -4736
-rect 3078 -4838 3136 -4832
-rect 3078 -4872 3090 -4838
-rect 3078 -4878 3136 -4872
-rect 3078 -5148 3136 -5142
-rect 3078 -5182 3090 -5148
-rect 3078 -5188 3136 -5182
+rect 1610 -6370 1744 -6369
+rect 1644 -6404 1710 -6403
 << metal1 >>
-rect 1314 -42 1514 158
-rect 1748 -24 1948 176
-rect 2338 -40 2538 160
-rect 4330 26 4530 226
+rect 330 -3886 530 -3686
+rect 758 -3867 958 -3667
+rect 1094 -3849 1294 -3649
+rect 1448 -3849 1648 -3649
 rect 1186 -11452 1386 -11252
 rect 1796 -11472 1996 -11272
 use strong_arm_latch  x1
-timestamp 1785931213
-transform 1 0 174 0 1 -6681
+timestamp 1785931327
+transform 1 0 -356 0 1 -7940
 box 644 -3084 2986 392
 use post_amplifier  x2
-timestamp 1784630003
-transform 1 0 1000 0 1 -3546
-box 0 -1780 2628 312
+timestamp 1786264432
+transform 1 0 -414 0 1 -5784
+box 1145 -1367 2860 422
 use sky130_fd_sc_hd__dfxtp_2  x3 ~/old_home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1784630003
-transform 1 0 2704 0 1 -1974
+transform 1 0 1897 0 1 -4836
 box -38 -48 1602 592
 use sky130_fd_sc_hd__clkinv_4  x4 ~/old_home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1784630003
-transform 1 0 950 0 1 -1970
+transform 1 0 345 0 1 -4834
 box -38 -48 682 592
 use sky130_fd_sc_hd__decap_3  x5 ~/old_home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
 timestamp 1784630003
-transform 1 0 1670 0 1 -1970
+transform 1 0 1063 0 1 -4834
 box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  x6 ~/old_home_mnt/asic/sky130_pdk/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1784630003
-transform 1 0 2022 0 1 -1970
+timestamp 1786263846
+transform 1 0 1389 0 1 -4834
 box -38 -48 130 592
 use sky130_fd_sc_hd__decap_3  x7
 timestamp 1784630003
-transform 1 0 2188 0 1 -1970
+transform 1 0 1556 0 1 -4834
 box -38 -48 314 592
 use sky130_fd_sc_hd__fill_1  x8
-timestamp 1784630003
-transform 1 0 2538 0 1 -1972
+timestamp 1786263846
+transform 1 0 3536 0 1 -4826
 box -38 -48 130 592
 << labels >>
-flabel metal1 1314 -42 1514 158 0 FreeSans 256 0 0 0 CLK
-port 0 nsew
-flabel metal1 1748 -24 1948 176 0 FreeSans 256 0 0 0 COMP_OUT
-port 4 nsew
-flabel metal1 2338 -40 2538 160 0 FreeSans 256 0 0 0 VDD
-port 3 nsew
-flabel metal1 4330 26 4530 226 0 FreeSans 256 0 0 0 VSS
-port 5 nsew
 flabel metal1 1186 -11452 1386 -11252 0 FreeSans 256 0 0 0 VINP
 port 1 nsew
 flabel metal1 1796 -11472 1996 -11272 0 FreeSans 256 0 0 0 VINN
 port 2 nsew
+flabel metal1 330 -3886 530 -3686 0 FreeSans 256 0 0 0 CLK
+port 0 nsew
+flabel metal1 758 -3867 958 -3667 0 FreeSans 256 0 0 0 COMP_OUT
+port 4 nsew
+flabel metal1 1094 -3849 1294 -3649 0 FreeSans 256 0 0 0 VDD
+port 3 nsew
+flabel metal1 1448 -3849 1648 -3649 0 FreeSans 256 0 0 0 VSS
+port 5 nsew
 << end >>

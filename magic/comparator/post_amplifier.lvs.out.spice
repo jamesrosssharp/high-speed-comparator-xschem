@@ -1,0 +1,25 @@
+* NGSPICE file created from post_amplifier.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_V8CAV6 a_n73_n100# a_n33_n188# a_15_n100# a_n175_n274#
+X0 a_15_n100# a_n33_n188# a_n73_n100# a_n175_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_XUW9MZ a_n73_n100# a_15_n100# w_n211_n319# a_n33_n197#
+X0 a_15_n100# a_n33_n197# a_n73_n100# w_n211_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_73QTW5 a_n73_n100# a_n33_n188# a_15_n100# a_n175_n274#
+X0 a_15_n100# a_n33_n188# a_n73_n100# a_n175_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt post_amplifier VDD VLAT_PLUS VLAT_MINUS VOUT VSS
+XXM1 m1_2042_n881# VLAT_PLUS m1_1427_n658# VSS sky130_fd_pr__nfet_01v8_V8CAV6
+XXM2 m1_2042_n881# VLAT_MINUS m1_2113_n885# VSS sky130_fd_pr__nfet_01v8_V8CAV6
+XXM3 VSS m1_1427_n658# m1_2042_n881# VSS sky130_fd_pr__nfet_01v8_V8CAV6
+XXM4 m1_1492_n244# m1_1427_n658# VDD VLAT_PLUS sky130_fd_pr__pfet_01v8_XUW9MZ
+XXM5 m1_1492_n244# m1_2113_n885# VDD VLAT_MINUS sky130_fd_pr__pfet_01v8_XUW9MZ
+XXM6 VDD m1_1492_n244# VDD m1_1427_n658# sky130_fd_pr__pfet_01v8_XUW9MZ
+XXM7 VSS m1_2113_n885# VOUT VSS sky130_fd_pr__nfet_01v8_73QTW5
+XXM8 VDD VOUT VDD m1_2113_n885# sky130_fd_pr__pfet_01v8_XUW9MZ
+.ends
+

@@ -5,15 +5,22 @@
 PDK_ROOT=/home/jrsharp/old_home_mnt/asic/sky130_pdk/share/pdk/
 PDK=sky130A
 
+for CELL in strong_arm_latch post_amplifier; do
+
 PDK_ROOT=${PDK_ROOT} magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc > magic.lvs.log << EOF
-load strong_arm_latch
+load $CELL
 extract all
 ext2spice lvs
-ext2spice -o strong_arm_latch.lvs.out.spice
+ext2spice -o $CELL.lvs.out.spice
 quit -noprompt
 EOF
 
-netgen -batch lvs "strong_arm_latch.lvs.out.spice strong_arm_latch" "strong_arm_latch.xschem.out.spice strong_arm_latch" ${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl
+netgen -batch lvs "$CELL.lvs.out.spice $CELL" "$CELL.xschem.out.spice $CELL" ${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl
+
+
+done
+
+rm *.ext
 
 echo "Done!"
 exit 0 
